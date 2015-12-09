@@ -1,13 +1,13 @@
 {
-  "name": "mbed-hal-st-stm32f411re",
+  "name": "mbed-hal-st-stm32f411ve",
   "version": "0.0.1",
-  "description": "mbed HAL for stm32f411re microcontrollers",
+  "description": "mbed HAL for stm32f411ve microcontrollers",
   "keywords": [
     "mbed",
-    "mbed-official"
+    "mbed-unofficial"
   ],
   "author": "Max Peng <max.peng1768@gmail.com>",
-  "homepage": "https://github.com/maxpeng/mbed-hal-st-stm32f411re",
+  "homepage": "https://github.com/maxpeng/mbed-hal-st-stm32f411ve",
   "licenses": [
     {
       "url": "https://spdx.org/licenses/Apache-2.0",
@@ -19,7 +19,7 @@
     }
   ],
   "extraIncludes": [
-    "mbed-hal-st-stm32f411re"
+    "mbed-hal-st-stm32f411ve"
   ],
   "dependencies": {
     "cmsis-core": "^1.0.0",
