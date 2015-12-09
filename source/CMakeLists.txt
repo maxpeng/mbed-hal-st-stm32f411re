@@ -32,12 +32,12 @@ endif()
 enable_language(ASM)
 set_property(SOURCE ${STARTUP_ASM} PROPERTY LANGUAGE ASM)
 
-add_library(mbed-hal-st-stm32f411re
+add_library(mbed-hal-st-stm32f411ve
     ${STARTUP_ASM}
     ${STARTUP_SRC}
     "PeripheralPins.c"
 )
-set_target_properties(mbed-hal-st-stm32f411re PROPERTIES
+set_target_properties(mbed-hal-st-stm32f411ve PROPERTIES
     LINKER_LANGUAGE C
 )
 
@@ -49,7 +49,7 @@ else()
 endif()
 
 #TODO: target dependencies should not be set here
-target_link_libraries(mbed-hal-st-stm32f411re
+target_link_libraries(mbed-hal-st-stm32f411ve
     ${EXTRA_LINK_LIBS}
     mbed-hal
 )
